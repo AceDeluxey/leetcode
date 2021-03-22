@@ -23,3 +23,10 @@ public class class1033 {
         return result;
     }
 }
+//main
+//class1033 test =new class1033();
+//
+//    int num[]=test.numMovesStones(3,5,1);
+//        for (int i:num){
+//                System.out.println(i);
+//                }
