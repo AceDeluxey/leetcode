@@ -29,3 +29,7 @@ public class class134 {
         }
 
 }
+//    class134 test1=new class134();
+//        int gas[] = {2,3,4};
+//        int cost[] = {3,4,3};
+//        System.out.println(test1.canCompleteCircuit(gas,cost));

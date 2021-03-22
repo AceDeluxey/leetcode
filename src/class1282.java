@@ -36,3 +36,6 @@ public class class1282 {
             return result;
         };
 }
+//    class1282 test=new class1282();
+//        int a[] = {2,1,3,3,3,2};
+//        System.out.println(test.groupThePeople(a));
