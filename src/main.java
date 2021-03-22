@@ -10,9 +10,16 @@ public class main {
 //        class136 test=new class136();
 //        int a[]={4,1,2,1,2};
 //        test.singleNumber(a);
-        class15 test=new class15();
-        int nums[]={-1,0,1,2,-1,-4};
-        System.out.println(test.threeSum(nums));
+
+//        class15 test=new class15();
+//        int nums[]={-1,0,1,2,-1,-4};
+//        System.out.println(test.threeSum(nums));
+        inplaceAlg test =new inplaceAlg();
+        int nums[]={0,0,1,1,2,3,4};
+        test.removeDuplicates(nums);
+
+
+
 
     }
 }
