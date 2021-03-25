@@ -10,6 +10,7 @@ import DataStructure.*;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+// 时间超过100%,空间超过67%
 public class class83 {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode LN=new ListNode();
