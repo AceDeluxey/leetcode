@@ -15,6 +15,11 @@ import java.util.List;
 //82. 删除排序链表中的重复元素 II
     //问题：现在写代码的情况在于，总是有了想法就开始写。代码对大部分情况适用，但是特殊情况难以满足。
     //导致每次做题都要提交很多次，难搞。
+
+    /**
+     * 思路：用一个指针记录最后一个满足前后不等的节点的位置，然后另一边
+        遍历整个链表，同时用FLAG表示是否在经过重复的一段*/
+
 public class class82 {
     public ListNode deleteDuplicates(ListNode head) {
 
