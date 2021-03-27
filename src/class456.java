@@ -52,3 +52,6 @@ public class class456 {
 //        return false;
     }
 }
+//class456 test =new class456();
+//        int []nums = {-1,3,2,0};
+//        System.out.println(test.find132pattern(nums));

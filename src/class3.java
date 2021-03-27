@@ -37,3 +37,5 @@ public class class3 {
         return num;
     }
 }
+// class3 test =new class3();
+//        System.out.println(test.lengthOfLongestSubstring("aab"));
