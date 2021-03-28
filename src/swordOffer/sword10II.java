@@ -52,3 +52,5 @@ public class sword10II {
 //        }
     }
 }
+//sword10II test=new sword10II();
+//           System.out.println(test.numWays(2));
