@@ -6,6 +6,7 @@ package swordOffer;
  * method2:递归会超时
  * method1:用数组动态规划 100 5%
  * method3:在动规的基础上减少空间使用,用三个int 代替数组，100 24%
+ * ..
  */
 public class sword10II {
     public int numWays(int n) {
