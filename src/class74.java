@@ -2,6 +2,8 @@
  * 74. 搜索二维矩阵
  * 思路：先查找在哪行，再用二分法找在不在行里
  * 空间100%,时间21%
+ *
+ * ps:二分法写的有点问题
  */
 
 public class class74 {
@@ -37,3 +39,6 @@ public class class74 {
         return false;
     }
 }
+//class74 test= new class74();
+//        int [][]a= {{1,3,5,7}, {10,11,16,20}, {23,30,34,60}};
+//        System.out.println(test.searchMatrix(a,13));
