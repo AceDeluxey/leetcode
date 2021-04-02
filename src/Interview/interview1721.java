@@ -39,7 +39,7 @@ public class interview1721 {
         }
         return vol;
     }
-    private static int[] getRightMax(int[] height){
+    private static int[] getRightMax(int[] height){   //求每个点右边的最大值
         int []max_right=new int[height.length];
         for(int i=height.length - 1; i>=0;i--){
             if(i==height.length - 1){
