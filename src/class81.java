@@ -6,7 +6,7 @@
  *
  * 给你 旋转后 的数组 nums 和一个整数 target ，请你编写一个函数来判断给定的目标值是否存在于数组中。如果 nums 中存在这个目标值 target ，则返回 true ，否则返回 false 。
  *
- *
+ *33题的升级版，但是用33的二分改不出来
  * method1: 二分查找，细节太多了改不出来
  * method2:  暴力，由于On，效果还是很好，0ms 100%;38.4M 20%;
  *
@@ -46,3 +46,7 @@ public class class81 {
 //        return false;
     }
 }
+// class81 test=new class81();
+//        int []a={1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1};
+//
+//        System.out.println(test.search(a,2));
