@@ -47,3 +47,7 @@ public class class79 {
         return up || down || left || right;
     }
 }
+//class79 test = new class79();
+//        char [][]a={{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
+//        String word="ABCCED";
+//        System.out.println(test.exist(a,word));
