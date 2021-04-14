@@ -69,3 +69,8 @@ public class class1024 {
         return cnt;
     }
 }
+//    class1024 test=new class1024();
+//
+//    int [][] maze={{0,1}, {6,8}, {0,2}, {5, 6}, {0, 4}, {0, 3}, {6, 7}, {1, 3}, {4, 7}, {1, 4}, {2, 5}, {2, 6}, {3, 4}, {4, 5}, {5, 7},
+//            {6, 9}};
+//    System.out.println( test.videoStitching(maze,9));
