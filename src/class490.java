@@ -93,3 +93,8 @@ public class class490 {
         return flag==1?searched(maze, start,destination):false;
     }
 }
+//class490 test=new class490();
+//            int []start={0,4};
+//        int []end={1,2};
+//            int [][] maze={{0,0,1,0,0}, {0,0,0,0,0}, {0,0,0,1,0}, {1,1,0,1,1}, {0,0,0,0,0}};
+//            System.out.println( test.hasPath(maze,start,end));
