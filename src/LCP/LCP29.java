@@ -56,3 +56,8 @@ public class LCP29 {
         return -1;
     }
 }
+//    LCP29 test= new LCP29();
+//        System.out.println(test.orchestraLayout(
+//                694755836,
+//                601953258,
+//                632852842));
