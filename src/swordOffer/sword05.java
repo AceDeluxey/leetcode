@@ -20,3 +20,4 @@ public class sword05 {
         return buffer.toString();
     }
 }
+   
