@@ -18,7 +18,7 @@ public class class28 {
         }
 
 
-        for(int i=0;i<=haystack.length()-needle.length();i++){  //暴力破解
+        for(int i=0;i<=haystack.length()-needle.length();i++){  //暴力破解0
             int flag=1;
             int temp=i;
             for(int j=0;j<needle.length(); j++){
