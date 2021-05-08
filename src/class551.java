@@ -7,6 +7,7 @@
 
         思路：统计连续出现次数，很简单
 
+
         0ms 100%
  */
 public class class551 {
