@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-public class TreeNode {
+public  class TreeNode {
     public int level=1;
     public int val;
     public TreeNode left;
@@ -18,7 +18,15 @@ public class TreeNode {
           this.left = left;
           this.right = right;
       }
-    public  TreeNode convert(Integer[] array) {
+
+    public TreeNode(Integer[] array){
+        TreeNode root =convert(array); //懒得改convert函数，就直接把值赋给this吧
+        this.val =root.val;
+        this.left = root.left;
+        this.right =root.right;
+    }
+
+    private  TreeNode convert(Integer[] array) {
         int floor = 0, count = 0;
         TreeNode[] treeNodes = new TreeNode[array.length];
         while (array != null && count < array.length) {
