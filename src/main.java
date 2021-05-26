@@ -10,6 +10,7 @@ public class main {
         System.out.println(test.getSumAbsoluteDifferences(a));
 
 
+
 //        树的构造
 //        Integer [] a={1,2,3};
 //        TreeNode root1 =new TreeNode(a);
