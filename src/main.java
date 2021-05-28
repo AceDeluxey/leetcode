@@ -4,10 +4,11 @@ import java.util.TreeSet;
 import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) {
-        int []a= {2,3,5};
-        int []b={1,2,4};
-        class1685 test = new class1685();
-        System.out.println(test.getSumAbsoluteDifferences(a));
+        int []a= {2,7,9,4,4};
+
+
+        class1140 test = new class1140();
+        System.out.println(test.stoneGameII(a));
 
 
 
