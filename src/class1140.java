@@ -17,8 +17,9 @@ public class class1140 {
                  if(i+2*(j+1)>= piles.length){
                     dp[i][j]=sum;
                 } else{
-                    //因为我的j是M-1，所以优点拧巴
+                    //因为我的j是M-1，所以有点拧巴
                     for (int k=1;k<=2*(j+1);k++){
+                        //这样最大的原因是，我们拿了k个，到对手从i+k开始拿，因为对手也最优，所以我们能拿的最大值就是sum-对手的最大值
                         dp[i][j]=Math.max(dp[i][j],sum-dp[i+k][Math.max(k,j+1)-1]);
                     }
                 }
