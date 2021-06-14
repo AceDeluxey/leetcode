@@ -4,11 +4,11 @@ import java.util.TreeSet;
 import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) {
-        int []a= {2,7,9,4,4};
-
-
-        class1140 test = new class1140();
-        System.out.println(test.stoneGameII(a));
+        int []a={1,2,5};
+        class279 test = new class279();
+        System.out.println(test.numSquares(12));
+//        class1140 test = new class1140();
+//        System.out.println(test.stoneGameII(a));
 
 
 
