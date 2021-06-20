@@ -4,12 +4,17 @@ import java.util.TreeSet;
 import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) {
-        int []a={1,2,5};
-        class279 test = new class279();
-        System.out.println(test.numSquares(12));
+        int []a={9,10,8,7};
+        int []b={5,6,7,8};
+        char c='中';
+        System.out.println((int)c);
+        class455 test = new class455();
+        class1510 test1 = new class1510();
+//        System.out.println(test1.winnerSquareGame(15));
+        class870 test2 = new class870();
+        System.out.println(test2.advantageCount(a,b));
 //        class1140 test = new class1140();
 //        System.out.println(test.stoneGameII(a));
-
 
 
 //        树的构造
