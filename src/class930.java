@@ -6,7 +6,8 @@ import java.util.HashMap;
  * 子数组 是数组的一段连续部分。
  * <p>
  * 思路：直接用前缀和的话是On2,也跑的出来，1946ms 5%
- * 方法2是利用map<a,b>存储。键是从0开始的一段数组，其和为a，这样的数组有b个；16ms 75%
+ * 方法2是利用map<a,b>存储。键是从0开始的一段数组，其和为a，这样的数组有b个；其实本质上就是计算相同前缀和出现的次数
+ * 16ms 75%
  */
 public class class930 {
     public int numSubarraysWithSum(int[] nums, int goal) {
