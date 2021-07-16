@@ -21,6 +21,7 @@ public class main {
         char c='中';
         class21 test = new class21();
         test.mergeTwoLists(node1,node2);
+
         //qxh
 //        System.out.println((int)c);
 //        class455 test = new class455();
