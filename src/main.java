@@ -2,25 +2,33 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.TreeSet;
 
 import DataStructure.ListNode;
 import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) throws ParseException {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String dateStr = "2019-01-03 10:59:27";
-        Date date = simpleDateFormat.parse(dateStr);
-        System.out.println(date);
+        LinkedList<Integer> stack;
+        stack  = new LinkedList<>();
+        stack.push(1);
+        stack.push(null);
+        stack.push(2);
+        System.out.println(stack);
 
-        int []a={1,2,4};
-        ListNode node1 = new ListNode(a);
-
-        int []b={1,3,4};
-        ListNode node2 = new ListNode(b);
-        char c='中';
-        class21 test = new class21();
-        test.mergeTwoLists(node1,node2);
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        String dateStr = "2019-01-03 10:59:27";
+//        Date date = simpleDateFormat.parse(dateStr);
+//        System.out.println(date);
+//
+//        int []a={1,2,4};
+//        ListNode node1 = new ListNode(a);
+//
+//        int []b={1,3,4};
+//        ListNode node2 = new ListNode(b);
+//        char c='中';
+//        class21 test = new class21();
+//        test.mergeTwoLists(node1,node2);
 
         //qxh
 //        System.out.println((int)c);
