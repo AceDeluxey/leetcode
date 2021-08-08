@@ -22,8 +22,12 @@ public class main {
 //        test.solveSudoku(board);
 
 
-        class17 test = new class17();
-        test.letterCombinations("");
+        int a [ ] = {2,3,0,1,4};
+        class45 test = new class45();
+        System.out.println(test.jump(a));
+
+//        class17 test = new class17();
+//        test.letterCombinations("");
 //        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //        String dateStr = "2019-01-03 10:59:27";
 //        Date date = simpleDateFormat.parse(dateStr);
