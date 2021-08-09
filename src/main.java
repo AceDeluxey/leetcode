@@ -22,6 +22,7 @@ public class main {
 //        test.solveSudoku(board);
 
 
+
         int a [ ] = {2,3,0,1,4};
         class45 test = new class45();
         System.out.println(test.jump(a));
