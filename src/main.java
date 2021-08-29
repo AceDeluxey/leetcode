@@ -13,6 +13,7 @@ public class main {
 //        stack  = new LinkedList<>();
 //        stack.push(1);
 //        stack.push(null);
+
 //        stack.push(2);
 //        System.out.println(stack);
 //[[2,1],[3,4],[3,2]]
@@ -43,7 +44,7 @@ public class main {
 //        System.out.println(date);
 //
 
-        
+
 
 //        int []a={1,2,4};
 //        ListNode node1 = new ListNode(a);
