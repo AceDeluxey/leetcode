@@ -9,10 +9,14 @@ import DataStructure.ListNode;
 import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) throws ParseException {
+        int a[] ={1,4,2,5,3};
+        class1588 test = new class1588();
+        test.sumOddLengthSubarrays(a);
 //        LinkedList<Integer> stack;
 //        stack  = new LinkedList<>();
 //        stack.push(1);
 //        stack.push(null);
+
 
 //        stack.push(2);
 //        System.out.println(stack);
@@ -32,9 +36,9 @@ public class main {
 //        test.solveSudoku(board);
 
 
-        int a [ ] = {2,3,0,1,4};
-        class45 test = new class45();
-        System.out.println(test.jump(a));
+//        int a [ ] = {2,3,0,1,4};
+//        class45 test = new class45();
+//        System.out.println(test.jump(a));
 
 //        class17 test = new class17();
 //        test.letterCombinations("");
