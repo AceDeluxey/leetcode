@@ -15,6 +15,8 @@ public class main {
         test2.compareVersion(s1,s2);
 
 
+
+
         int a[] ={1,4,2,5,3};
 
         class1588 test = new class1588();
