@@ -17,6 +17,7 @@ public class main {
 
 
 
+
         int a[] ={1,4,2,5,3};
 
         class1588 test = new class1588();
