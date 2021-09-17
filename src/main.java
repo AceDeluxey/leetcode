@@ -9,19 +9,19 @@ import DataStructure.ListNode;
 import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) throws ParseException {
-        String s1 ="0.1";
-        String s2="1.1";
-        class165 test2 = new class165();
-        test2.compareVersion(s1,s2);
+
+
+        class212 test = new class212();
+        char[][] board ={{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}};
+        String [] words = {"oath","pea","eat","rain"};
+        System.out.println(test.findWords(board,words));
 
 
 
 
 
-        int a[] ={1,4,2,5,3};
 
-        class1588 test = new class1588();
-        test.sumOddLengthSubarrays(a);
+
 //        LinkedList<Integer> stack;
 //        stack  = new LinkedList<>();
 //        stack.push(1);
@@ -51,9 +51,9 @@ public class main {
 //        System.out.println(test.jump(a));
 
 //        class17 test = new class17();
-//        test.letterCombinations("");
-//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-//        String dateStr = "2019-01-03 10:59:27";
+//        test.letterCombinations('');
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat('yyyy-MM-dd HH:mm:ss');
+//        String dateStr = '2019-01-03 10:59:27';
 //        Date date = simpleDateFormat.parse(dateStr);
 //        System.out.println(date);
 //
@@ -74,10 +74,10 @@ public class main {
 //        class455 test = new class455();
 //        class1510 test1 = new class1510();
 ////        System.out.println(test1.winnerSquareGame(15));
-//        class1600 test3 = new class1600("king");
-//        test3.birth("king","andy");
-//        test3.birth("king","bob");
-//        test3.birth("andy","s");
+//        class1600 test3 = new class1600('king');
+//        test3.birth('king','andy');
+//        test3.birth('king','bob');
+//        test3.birth('andy','s');
 //        System.out.println(test3.getInheritanceOrder());
 //        class870 test2 = new class870();
 //        System.out.println(test2.advantageCount(a,b));
