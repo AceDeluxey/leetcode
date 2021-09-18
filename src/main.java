@@ -11,6 +11,7 @@ public class main {
     public static void main(String[] args) throws ParseException {
 
 
+
         class212 test = new class212();
         char[][] board ={{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}};
         String [] words = {"oath","pea","eat","rain"};
