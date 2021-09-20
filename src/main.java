@@ -23,6 +23,7 @@ public class main {
 
 
 
+
 //        LinkedList<Integer> stack;
 //        stack  = new LinkedList<>();
 //        stack.push(1);
