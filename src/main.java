@@ -10,12 +10,13 @@ import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) throws ParseException {
 
+        class5 test = new class5();
+        System.out.println(test.longestPalindrome("babad"));
 
-
-        class212 test = new class212();
-        char[][] board ={{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}};
-        String [] words = {"oath","pea","eat","rain"};
-        System.out.println(test.findWords(board,words));
+//        class212 test = new class212();
+//        char[][] board ={{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}};
+//        String [] words = {"oath","pea","eat","rain"};
+//        System.out.println(test.findWords(board,words));
 
 
 
