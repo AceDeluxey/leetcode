@@ -9,10 +9,26 @@ import DataStructure.ListNode;
 import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) throws ParseException {
+//    class97 test2 = new class97();
+//    test2.isInterleave("aabcc","dbbca","aadbbcbcac");
 
-        class5 test = new class5();
-        System.out.println(test.longestPalindrome("babad"));
 
+
+    class476 test3 = new class476();
+    test3.findComplement(5);
+//        class1  test = new class1();
+//        int [] a = {2,7,11,15};
+//        test.twoSum(a,9);
+//        class29 test4 = new class29();
+//        test4.divide(-2147483648,-1);
+
+//        class152 test3 = new class152();
+//        int [] a = {-2,3,-4};
+//        test3.maxProduct(a);
+//
+//        class46 test1 = new class46();
+//        int []b = {1,2,3};
+//        test1.permute(b);
 //        class212 test = new class212();
 //        char[][] board ={{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}};
 //        String [] words = {"oath","pea","eat","rain"};
