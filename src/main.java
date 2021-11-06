@@ -7,15 +7,20 @@ import java.util.TreeSet;
 
 import DataStructure.ListNode;
 import  DataStructure.TreeNode;
+
+
 public class main {
     public static void main(String[] args) throws ParseException {
 //    class97 test2 = new class97();
 //    test2.isInterleave("aabcc","dbbca","aadbbcbcac");
+        class869 test = new class869();
+        test.reorderedPowerOf2(1);
+        System.out.println(1 << 2);
+//    NeedlemanWunschAlgorithm test1 = new NeedlemanWunschAlgorithm();
+//    System.out.println("score:"+test1.calScore("COELACANTH","PELICAN"));
 
-
-
-    class476 test3 = new class476();
-    test3.findComplement(5);
+//    class476 test3 = new class476();
+//    test3.findComplement(5);
 //        class1  test = new class1();
 //        int [] a = {2,7,11,15};
 //        test.twoSum(a,9);
