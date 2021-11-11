@@ -3,7 +3,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * By  Zhang Wenyu
  * Reference:https://zhuanlan.zhihu.com/p/54142276
+ *
+    Another website for online algorithm :http://experiments.mostafa.io/public/needleman-wunsch/
  */
 public class NeedlemanWunschAlgorithm {
     int dp[][];
@@ -15,6 +18,7 @@ public class NeedlemanWunschAlgorithm {
         result = new ArrayList<>();
         this.s1 = s1;
         this.s2 = s2;
+
 
         //Initialize score matrix
         dp = new int[s1.length() + 1][s2.length() + 1];
@@ -38,20 +42,24 @@ public class NeedlemanWunschAlgorithm {
         }
 
         //DFS
-        dfsPath(s1.length(), s2.length(), "", "", 0);
-        dfsPath(s1.length(), s2.length(), "", "", 1);
-        dfsPath(s1.length(), s2.length(), "", "", 2);
+//        dfsPath(s1.length(), s2.length(), "", "", 0);
+//        dfsPath(s1.length(), s2.length(), "", "", 1);
+        dfsPath(s1.length(), s2.length(), "", "", -1);
 
         //print probable answer
         for (List<String> temp : result) {
-            if(verScore(temp.get(0),temp.get(1))==dp[s1.length()][s2.length()]){
+//            if(verScore(temp.get(0),temp.get(1))==dp[s1.length()][s2.length()]){
+//                System.out.println(temp.get(0));
+//                System.out.println(temp.get(1));
+//                System.out.println("");
+//            }
+            int maxLen = Math.max(s1.length(),s2.length());
+            if(verScore(temp.get(0),temp.get(1))==dp[s1.length()][s2.length()] && temp.get(0).length()==maxLen && temp.get(1).length()==maxLen){
                 System.out.println(temp.get(0));
                 System.out.println(temp.get(1));
                 System.out.println("");
             }
-            System.out.println(temp.get(0));
-            System.out.println(temp.get(1));
-            System.out.println("");
+
         }
         return dp[s1.length()][s2.length()];
     }
@@ -63,10 +71,21 @@ public class NeedlemanWunschAlgorithm {
      * @param j y axel
      */
     private void dfsPath(int i, int j, String ss1, String ss2, int flag) {
-
+        //flag =0, no '-' ; flag = 1 , ss1 +'-'; flag =2  ss2 + '-'; -1 nothing
+        // ss1 represents a vertical sequence,ss2 is horizontal seq
+        if (flag == 0) {
+            ss1 += s1.charAt(i);
+            ss2 += s2.charAt(j);
+        } else if (flag == 1) {
+            ss1 += '-';
+            ss2 += s2.charAt(j);
+        } else if (flag == 2) {
+            ss1 += s1.charAt(i);
+            ss2 += '-';
+        }
 
         //finish DFS
-        if (i == 0 || j == 0) {
+        if (i-1<0 || j-1<0) {
             //add available answer to list
             List<String> temp = new LinkedList<>();
             //reverse the sequence
@@ -84,31 +103,9 @@ public class NeedlemanWunschAlgorithm {
         }
 
 
-        //flag =0, no '-' ; flag = 1 , ss1 +'-'; flag =2  ss2 + '-';
-        // ss1 represents a vertical sequence,ss2 is horizontal seq
-        if (flag == 0) {
-            ss1 += s1.charAt(i - 1);
-            ss2 += s2.charAt(j - 1);
-        } else if (flag == 1) {
-            ss1 += '-';
-            ss2 += s2.charAt(j - 1);
-        } else if (flag == 2) {
-            ss1 += s1.charAt(i - 1);
-            ss2 += '-';
-        }
-
-
         //find the max value
         int max = Math.max(dp[i - 1][j], Math.max(dp[i - 1][j - 1], dp[i][j - 1]));
-//        if (s1.charAt(i - 1) == 'A' && s2.charAt(j - 1) == 'A') {
-//            System.out.println(max);
-//            System.out.println(dp[i - 1][j]);
-//            System.out.println(dp[i - 1][j - 1]);
-//            System.out.println(dp[i][j - 1]);
-//            System.out.println(s1.charAt(i - 1));
-//            System.out.println(s2.charAt(j - 1));
-//            System.out.println("");
-//        }
+
         if (dp[i - 1][j - 1] == max) {
             dfsPath(i - 1, j - 1, ss1, ss2, 0);
         }
