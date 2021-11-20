@@ -11,18 +11,25 @@ import  DataStructure.TreeNode;
 
 public class main {
     public static void main(String[] args) throws ParseException {
+        String s = "aa";
+        String s1 = "ab";
+        System.out.println(s.length());
+
 //    class97 test2 = new class97();
 //    test2.isInterleave("aabcc","dbbca","aadbbcbcac");
-        class869 test = new class869();
-        test.reorderedPowerOf2(1);
-        System.out.println(1 << 2);
+//        class869 test = new class869();
+//        test.reorderedPowerOf2(1);
+//        System.out.println(1 << 2);
+//        class495 test = new class495();
+//        int [] a = {1,2,3,4};
+//        class1218 test = new class1218();
+//        test.longestSubsequence(a,1);
+//        test.findPoisonedDuration(a,1);
 //    NeedlemanWunschAlgorithm test1 = new NeedlemanWunschAlgorithm();
 //    System.out.println("score:"+test1.calScore("COELACANTH","PELICAN"));
 
 //    class476 test3 = new class476();
-//    test3.findComplement(5);
-//        class1  test = new class1();
-//        int [] a = {2,7,11,15};
+//    test3.findComplement(5);//        int [] a = {2,7,11,15};
 //        test.twoSum(a,9);
 //        class29 test4 = new class29();
 //        test4.divide(-2147483648,-1);
