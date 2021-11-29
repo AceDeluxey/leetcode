@@ -12,9 +12,13 @@ import  DataStructure.TreeNode;
 public class main {
     public static void main(String[] args) throws ParseException {
         String s = "aa";
-        String s1 = "ab";
+        String s1 = "aa";
         System.out.println(s.length());
-
+        class859 test = new class859();
+        test.buddyStrings(s,s1);
+//        int a[ ] = {1,2,3};
+//        class384 test = new class384(a);
+//        test.shuffle();
 //    class97 test2 = new class97();
 //    test2.isInterleave("aabcc","dbbca","aadbbcbcac");
 //        class869 test = new class869();
