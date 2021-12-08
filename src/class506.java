@@ -5,6 +5,8 @@ import java.util.HashMap;
 /**
  * 506. 相对名次
     思路：排序+哈希 比较简单 就是忘记了怎么覆写arrays.sort
+
+    7ms 75%
  */
 public class class506 {
     public String[] findRelativeRanks(int[] score) {
