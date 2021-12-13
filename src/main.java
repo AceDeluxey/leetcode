@@ -17,6 +17,7 @@ public class main {
         class859 test = new class859();
         test.buddyStrings(s,s1);
 
+
 //        int a[ ] = {1,2,3};
 //        class384 test = new class384(a);
 //        test.shuffle();
