@@ -11,13 +11,16 @@ import  DataStructure.TreeNode;
 
 public class main {
     public static void main(String[] args) throws ParseException {
-        String s = "aa";
-        String s1 = "aa";
-        System.out.println(s.length());
-        class859 test = new class859();
-        test.buddyStrings(s,s1);
+//        String s = "aa";
+//        String s1 = "aa";
+//        System.out.println(s.length());
+//        class859 test = new class859();
+//        test.buddyStrings(s,s1);
 
 
+        class419 test1 = new class419();
+        char [ ][ ] a = {{'X','.','.','X'},{'.','.','.','X'},{'.','.','.','X'}};
+    test1.countBattleships(a);
 //        int a[ ] = {1,2,3};
 //        class384 test = new class384(a);
 //        test.shuffle();
