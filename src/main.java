@@ -17,10 +17,13 @@ public class main {
 //        class859 test = new class859();
 //        test.buddyStrings(s,s1);
 
+            class825 test = new class825();
+            int a []= {20,30,100,110,120};
+            System.out.println(test.numFriendRequests(a));
 
-        class419 test1 = new class419();
-        char [ ][ ] a = {{'X','.','.','X'},{'.','.','.','X'},{'.','.','.','X'}};
-    test1.countBattleships(a);
+//        class419 test1 = new class419();
+//        char [ ][ ] a = {{'X','.','.','X'},{'.','.','.','X'},{'.','.','.','X'}};
+//    test1.countBattleships(a);
 //        int a[ ] = {1,2,3};
 //        class384 test = new class384(a);
 //        test.shuffle();
