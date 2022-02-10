@@ -22,8 +22,8 @@ public class main {
 //            System.out.println(test.numFriendRequests(a));
 //class71 test = new class71();
 //test.simplifyPath("/a/../../b/../c//.//");
-        class89 test = new class89();
-        test.grayCode(2);
+//        class89 test = new class89();
+//        test.grayCode(2);
 
 
 
@@ -85,6 +85,10 @@ public class main {
 
 
 
+    class1001 test1 = new class1001();
+        int[][] queries={{0,0},{4,4}};
+        int [][ ] b = {{1,1},{1,1}};
+        test1.gridIllumination(5,queries, b);
 
 
 
