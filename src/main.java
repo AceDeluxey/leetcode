@@ -83,15 +83,12 @@ public class main {
 //[[2,1],[3,4],[3,2]]
 
 
+//class537 test11 = new class537();
+//test11.complexNumberMultiply("1+-1i","0+0i");
 
 
-    class1001 test1 = new class1001();
-        int[][] queries={{0,0},{4,4}};
-        int [][ ] b = {{1,1},{1,1}};
-        test1.gridIllumination(5,queries, b);
-
-
-
+class917 test22= new class917();
+test22.reverseOnlyLetters("ab-cd");
 
 
 
