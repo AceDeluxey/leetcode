@@ -88,9 +88,12 @@ public class main {
 //test11.complexNumberMultiply("1+-1i","0+0i");
 
 
-class917 test22= new class917();
-test22.reverseOnlyLetters("ab-cd");
 
+//class917 test22= new class917();
+//test22.reverseOnlyLetters("ab-cd");
+class2100 test = new class2100();
+int a [] = {5,3,3,3,5,6,2};
+test.goodDaysToRobBank(a,2);
 
 
 
