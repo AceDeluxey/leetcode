@@ -69,9 +69,11 @@ public class main {
 
 
 
+        class1021 test = new class1021();
+        String s ="(()())(())";
+        test.removeOuterParentheses(s);
 
 
-        
         
 
 
@@ -102,8 +104,8 @@ public class main {
 //test.goodDaysToRobBank(a,2);
 
 
-class2038 test = new class2038();
-test.winnerOfGame("BBBAAAABB");
+//class2038 test = new class2038();
+//test.winnerOfGame("BBBAAAABB");
 
 //        class37 test = new class37();
 //        char [][]board = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
