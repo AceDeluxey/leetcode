@@ -20,6 +20,7 @@ public class class926 {
             res= Math.min(res,oneNum+(s.length()-(i+1)-(sum-oneNum)));
         }
 
+
         return res;
     }
 }
