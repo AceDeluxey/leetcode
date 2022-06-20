@@ -8,7 +8,8 @@ import java.util.Set;
 public class class1748 {
     public int sumOfUnique(int[] nums) {
         int sum = 0;
-        int count [] = new int[nums.length+1];
+        int count [] = new int[
+                nums.length+1];
         for(int i = 0; i < nums.length; i++){
             count[nums[i]] += 1;
             if(count[nums[i]]==1){

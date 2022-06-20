@@ -11,6 +11,8 @@ public class class202 {
     HashSet<Integer> set = new HashSet<>();
     public boolean isHappy(int n) {
 
+
+
         while (true){
             if(n == 1){
                 return true;

@@ -19,6 +19,6 @@ public class Eular {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println(calEular(420));
+        System.out.println(calEular(36054));
     }
 }
