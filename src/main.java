@@ -69,12 +69,15 @@ public class main {
 
 
 
-        class1021 test = new class1021();
-        String s ="(()())(())";
-        test.removeOuterParentheses(s);
+//        class1021 test = new class1021();
+//        String s ="(()())(())";
+//        test.removeOuterParentheses(s);
 
 
-        
+        class498 test = new class498();
+        int a [][] = {{1,2,3}, {4,5,6}, {7, 8, 9}};
+        test.findDiagonalOrder(a);
+
 
 
 //        LinkedList<Integer> stack;
