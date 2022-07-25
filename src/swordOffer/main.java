@@ -14,6 +14,7 @@ public class main {
         test.asteroidCollision(a);
 
 
+        
 //        sword40 test = new sword40();
 //        int a[]={9,8,4,6,7,2};
 //        test.mergeSort(a,0,a.length - 1);
