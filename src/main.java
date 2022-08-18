@@ -11,6 +11,11 @@ import  DataStructure.TreeNode;
 
 public class main {
     public static void main(String[] args) throws ParseException {
+        class1184 test = new class1184();
+        int []a = {1,2,3,4};
+        test.distanceBetweenBusStops(a,0,2);
+
+
 //        String s = "aa";
 //        String s1 = "aa";
 //        System.out.println(s.length());
@@ -74,9 +79,9 @@ public class main {
 //        test.removeOuterParentheses(s);
 
 
-        class498 test = new class498();
-        int a [][] = {{1,2,3}, {4,5,6}, {7, 8, 9}};
-        test.findDiagonalOrder(a);
+//        class498 test = new class498();
+//        int a [][] = {{1,2,3}, {4,5,6}, {7, 8, 9}};
+//        test.findDiagonalOrder(a);
 
 
 
