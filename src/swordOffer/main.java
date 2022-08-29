@@ -9,9 +9,9 @@ public class main {
 //        test.push(-2);
 //        test.push(0);
 //        System.out.println(test.min());
-        swordII037 test = new swordII037();
-        int a[ ] = {1,-2,-2,-2};
-        test.asteroidCollision(a);
+//        swordII037 test = new swordII037();
+//        int a[ ] = {1,-2,-2,-2};
+//        test.asteroidCollision(a);
 
 
 
