@@ -12,25 +12,58 @@ import java.util.Stack;
 
     ON1  2MS 94.7%
  */
+
+/**
+ * 946. 验证栈序列
+ * 2022 831 重写
+ * 会很简单 就是Push遇到poped里的就开始Pop 不然继续push
+ * 不知道以前为啥这么多行
+ * On1 3ms 58%
+ */
 public class class946 {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
-        Stack<Integer> stack = new Stack<Integer>();
-        for(int i=0,index=0;i<pushed.length; i++){
-            if(pushed[i] == popped[index]){
-                if(++index==pushed.length){
-                    break;
-                }
-                while(!stack.isEmpty() && popped[index]==stack.peek()){
-                    index++;
-                    stack.pop();
-                    if(index==pushed.length ){
-                       break;
-                    }
-                }
-            } else{
-                stack.push(pushed[i]);
+        Stack<Integer> stack = new Stack<>();
+        int index =0;
+        for(int i =0 ; i < pushed.length;i++){
+            stack.push(pushed[i]);
+            while(!stack.isEmpty() && stack.peek()==popped[index]){
+                stack.pop();
+                index++;
             }
         }
-        return stack.isEmpty() ? true: false;
+        return stack.isEmpty()?true:false;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    public boolean validateStackSequences(int[] pushed, int[] popped) {
+//        Stack<Integer> stack = new Stack<Integer>();
+//        for(int i=0,index=0;i<pushed.length; i++){
+//            if(pushed[i] == popped[index]){
+//                if(++index==pushed.length){
+//                    break;
+//                }
+//                while(!stack.isEmpty() && popped[index]==stack.peek()){
+//                    index++;
+//                    stack.pop();
+//                    if(index==pushed.length ){
+//                       break;
+//                    }
+//                }
+//            } else{
+//                stack.push(pushed[i]);
+//            }
+//        }
+//        return stack.isEmpty() ? true: false;
+//    }
 }
