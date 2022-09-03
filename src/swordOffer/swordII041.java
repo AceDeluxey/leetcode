@@ -14,23 +14,23 @@ public class swordII041 {
     /**
      * Initialize your data structure here.
      */
-    public MovingAverage(int size) {
-        sum = 0;
-        this.size = size;
-        que = new LinkedList<Integer>();
-
-    }
-
-    public double next(int val) {
-        double ave;
-        if(que.size()<size){
-
-        } else{
-            sum -= que.poll();
-        }
-        sum+=val;
-        que.offer(val);
-        ave = (double)sum/que.size();
-        return ave;
-    }
+//    public MovingAverage(int size) {
+//        sum = 0;
+//        this.size = size;
+//        que = new LinkedList<Integer>();
+//
+//    }
+//
+//    public double next(int val) {
+//        double ave;
+//        if(que.size()<size){
+//
+//        } else{
+//            sum -= que.poll();
+//        }
+//        sum+=val;
+//        que.offer(val);
+//        ave = (double)sum/que.size();
+//        return ave;
+//    }
 }
