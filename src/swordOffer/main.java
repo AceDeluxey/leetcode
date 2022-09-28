@@ -4,6 +4,11 @@ import DataStructure.TreeNode;
 
 public class main {
     public static void main(String[] args) {
+        swordII009 test = new swordII009();
+        int a[ ] = {10,5,2,6};
+        test.numSubarrayProductLessThanK(a,100);
+
+
 //        sword30 test = new sword30();
 //        test.push(null);
 //        test.push(-2);
