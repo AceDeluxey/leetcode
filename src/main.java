@@ -1,21 +1,15 @@
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.TreeSet;
-
-import DataStructure.ListNode;
-import  DataStructure.TreeNode;
 
 
 public class main {
     public static void main(String[] args) throws ParseException {
-        class1184 test = new class1184();
-        int []a = {1,2,3,4};
-        test.distanceBetweenBusStops(a,0,2);
+//        class1184 test = new class1184();
+//        int []a = {1,2,3,4};
+//        test.distanceBetweenBusStops(a,0,2);
 
-
+        class128 test2 = new class128();
+        int [] b= {100,4,200,1,3,2};
+        test2.longestConsecutive(b);
 
 //        String s = "aa";
 //        String s1 = "aa";
