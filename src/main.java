@@ -11,6 +11,7 @@ public class main {
         int [] b= {100,4,200,1,3,2};
         test2.longestConsecutive(b);
 
+
 //        String s = "aa";
 //        String s1 = "aa";
 //        System.out.println(s.length());
