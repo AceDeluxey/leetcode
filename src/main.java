@@ -7,11 +7,17 @@ public class main {
 //        int []a = {1,2,3,4};
 //        test.distanceBetweenBusStops(a,0,2);
 
-        class128 test2 = new class128();
-        int [] b= {100,4,200,1,3,2};
-        test2.longestConsecutive(b);
 
+//        class128 test2 = new class128();
+//        int [] b= {100,4,200,1,3,2};
+//        test2.longestConsecutive(b);
 
+//        classMax test3 = new classMax();
+//        int [] c = {1,2,1,1};
+//        test3.histogram_max_area(c);
+        classFilter test4 = new classFilter();
+        String s = "222113111B111";
+        test4.get_substr(s);
 //        String s = "aa";
 //        String s1 = "aa";
 //        System.out.println(s.length());
