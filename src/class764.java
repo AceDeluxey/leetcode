@@ -5,6 +5,7 @@ import java.util.Arrays;
  * dp 其实就是沿四个方向遍历 dpxy 就是 沿着x y 的四个方向的最小长度，这样就可以避免用四个dp矩阵存，dp代表四个里的最小就行
  * 严格来说都优点不像dp？
  */
+
 class class764 {
     public int orderOfLargestPlusSign(int n, int[][] mines) {
         int[][] g = new int[n + 10][n + 10];
