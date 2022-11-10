@@ -14,6 +14,7 @@ import java.util.Queue;
  * 所以要退出，找回路这一块卡了好久，但是de出来了
  * 至于最后结果实在是没de出来
  * 先交了
+ * 它们的解法都是用数组记录下 到达xy一个状态的最小步数，没想清楚到底有没有关系
  */
 public class class864 {
     public static void main(String[] args) {
