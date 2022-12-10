@@ -10,9 +10,12 @@ public class main {
 
 
 
+
 //        class128 test2 = new class128();
 //        int [] b= {100,4,200,1,3,2};
 //        test2.longestConsecutive(b);
+
+
 
 //        classMax test3 = new classMax();
 //        int [] c = {1,2,1,1};
