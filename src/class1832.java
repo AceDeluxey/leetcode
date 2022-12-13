@@ -10,6 +10,7 @@ public class class1832 {
             int temp = sentence.charAt(i)-'a';
             mask = mask | (1<<temp);
         }
+
         //记得可以用十六进制，8421码写，不用1111这样哈哈哈哈哈
         return mask==0x3ffffff ;
     }
