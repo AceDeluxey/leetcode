@@ -12,6 +12,7 @@ public class class2325 {
         test.decodeMessage("the quick brown fox jumps over the lazy dog",
                 "vkbs bs t suepuv");
     }
+
     public String decodeMessage(String key, String message) {
         boolean app[] = new boolean[26];
         Map<Integer, Integer> map = new HashMap<>();
