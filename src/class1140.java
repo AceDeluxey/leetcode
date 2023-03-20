@@ -53,6 +53,7 @@ public class class1140 {
             return dp[i][m];
         }
         int res = 0;
+        //遍历每一种可能的x
         for (int x = 1; x <= m * 2; ++x) {
             // 保证对手也是最优
             res = Math.max(res, s[len] - s[i] - dfs(i + x, Math.max(m, x)));
